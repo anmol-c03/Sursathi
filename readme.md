@@ -4,7 +4,7 @@ This project aims to  create a music recommendation system that uses affective i
 
 
 ## Table of Contents
--[Dataset](#dataset)
+- [Dataset](#dataset)
 - [Predictions](#predictions)
 - [Refrences](#refrences)
 # Dataset
@@ -16,11 +16,11 @@ It is a large-scale visual emotion dataset with rich attributes, named EmoSet. W
  AffectNet, a new database of facial expressions in the wild, by collecting and annotating facial images. AffectNet contains more than 1M facial images collected from the Internet by querying three major search engines using 1250 emotion related keywords in six different languages. About half of the retrieved images (~440K) were manually annotated for the presence of seven discrete facial expressions (categorial model) and the intensity of valence and arousal (dimensional model). AffectNet is by far the largest database of facial expressions, valence, and arousal in the wild enabling research in automated facial expression recognition in two different emotion models.
 
 # Predictions 
-On Emoset
+## On Emoset
 The MobileNetV3Large-based model, trained on Emoset, achieved a final accuracy of approximately 68%. Below are the predictions on the test dataset, along with their corresponding confidence levels:
 ![Predictions](https://github.com/anmol-c03/Sursathi/blob/main/Images/Emoset/emoset_prediction.png)
 
-On AffectNet
+## On AffectNet
 The VGG16-based model, trained on Emoset, achieved a final accuracy of approximately 71%. Below are the predictions on the test dataset, along with their corresponding confidence levels:
 ![Predictions](https://github.com/anmol-c03/Sursathi/blob/main/Images/Finalized_AffectNet/plot_probablity.png)
 
