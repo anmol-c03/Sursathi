@@ -25,7 +25,8 @@ The VGG16-based model, trained on Emoset, achieved a final accuracy of approxima
 ![Predictions](https://github.com/anmol-c03/Sursathi/blob/main/Images/Finalized_AffectNet/plot_probablity.png)
 
 # Refrences
-(http://mohammadmahoor.com/affectnet/)
-(https://github.com/JingyuanYY/EmoSet)
+![AffectNet](http://mohammadmahoor.com/affectnet/)
+
+![Emoset](https://github.com/JingyuanYY/EmoSet)
 
 
